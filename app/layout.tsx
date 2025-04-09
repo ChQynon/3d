@@ -4,7 +4,7 @@ import "./globals.css"
 import { ToastProvider } from "@/components/toast-container"
 
 const geist = Geist({
-  subsets: ["latin", "cyrillic"],
+  subsets: ["latin"],
   display: "swap",
 })
 
