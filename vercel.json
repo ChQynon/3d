@@ -1,0 +1,12 @@
+{
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "devCommand": "next dev",
+  "framework": "nextjs",
+  "regions": ["fra1"],
+  "installCommand": "pnpm install",
+  "ignoreCommand": "echo 'Nothing to ignore'",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+} 
